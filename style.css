@@ -386,3 +386,28 @@ footer p{
     text-decoration: none;
 }
 /*============ Footer aria end =================*/
+
+
+/*==========mobile view===================*/
+@media(max-width:780px){
+    .container{
+        width: 100%;
+        height: 120vh;
+    }
+    .logo{
+        top: 10px;
+        left: 80px;
+    }
+    .SearchArea{
+        top: 80px;
+        right: 220px;
+        position: absolute;
+    }
+    .section1Button{
+        top: 90%;
+    }
+    .NotificationInput{
+        width: 400px;
+    }
+    
+}
